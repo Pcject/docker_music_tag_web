@@ -96,7 +96,7 @@ images = pcli.get_all_images(only_using=True, replace2latest=True, ignore_prefix
 for image in images:
     file_name = image.split(':')[0].replace('/','__').replace('.', '_')
     content = 'FROM {}'.format(image)
-    with open('Dockerfile-{}'.format(file_name), 'w') as f:
+    with open('Dockerfiles/Dockerfile-{}'.format(file_name), 'w') as f:
         f.write(content)
         print('write {} to {}'.format(content, file_name))
         
