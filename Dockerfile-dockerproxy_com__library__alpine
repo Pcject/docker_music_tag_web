@@ -1,0 +1,1 @@
+FROM dockerproxy.com/library/alpine:latest

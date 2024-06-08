@@ -1,0 +1,1 @@
+FROM nyanmisaka/jellyfin:latest

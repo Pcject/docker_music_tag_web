@@ -1,0 +1,1 @@
+FROM pcject/ddns-go:latest
